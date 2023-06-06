@@ -31,19 +31,19 @@ generate_config() {
                         "dest":3001
                     },
                     {
-                        "path":"/${WSPATH}-vless",
+                        "path":"/${WSPATH}-vl",
                         "dest":3002
                     },
                     {
-                        "path":"/${WSPATH}-vmess",
+                        "path":"/${WSPATH}-vm",
                         "dest":3003
                     },
                     {
-                        "path":"/${WSPATH}-trojan",
+                        "path":"/${WSPATH}-tr",
                         "dest":3004
                     },
                     {
-                        "path":"/${WSPATH}-shadowsocks",
+                        "path":"/${WSPATH}-sh",
                         "dest":3005
                     }
                 ]
@@ -86,7 +86,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vless"
+                    "path":"/${WSPATH}-vl"
                 }
             },
             "sniffing":{
@@ -113,7 +113,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-vmess"
+                    "path":"/${WSPATH}-vm"
                 }
             },
             "sniffing":{
@@ -140,7 +140,7 @@ generate_config() {
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/${WSPATH}-trojan"
+                    "path":"/${WSPATH}-tr"
                 }
             },
             "sniffing":{
@@ -168,7 +168,7 @@ generate_config() {
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/${WSPATH}-shadowsocks"
+                    "path":"/${WSPATH}-sh"
                 }
             },
             "sniffing":{
